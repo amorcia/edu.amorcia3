@@ -70,6 +70,7 @@ public class OperativaImplementacion implements OperativaInterfaz {
 			if(codigo.equals(codigoABorrar)) {
 				mostrarElementos.setFchBaja(LocalDateTime.now());
 				mostrarElementos.setEsValido(false);
+				System.out.println(mostrarElementos.getFchBaja());
 			}else {
 				System.out.println("Código inexistente".concat("\n"));
 			}
