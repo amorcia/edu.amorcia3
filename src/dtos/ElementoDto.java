@@ -96,8 +96,7 @@ public class ElementoDto {
 	 * 27/01/2025
 	 */
 	public String toString() {
-		return "idElemento: " + idElemento + 
-				"\nNombre: ".concat(nombreElemento).concat("\nCantidad: ") + cantidadElemento;
+		return idElemento + ", ".concat(nombreElemento).concat(", ") + cantidadElemento;
 	}	
 	
 	
